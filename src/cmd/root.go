@@ -44,6 +44,7 @@ func init() {
 	RootCmd.AddCommand(statsCmd)
 	RootCmd.AddCommand(listCmd)
 	RootCmd.AddCommand(detailCmd)
+	RootCmd.AddCommand(searchCmd)
 }
 
 func initConfig() {
